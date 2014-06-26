@@ -14,7 +14,7 @@ class ReadFile
       bool closed;
 
    public:
-      ReadFile();
+      ReadFile(const char* file_name);
       virtual ~ReadFile();
       String* readLine();
       bool eof();
